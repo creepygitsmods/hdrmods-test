@@ -7,7 +7,7 @@ affiliations:
 sidebar: false
 ---
 
-{% include callout.html type="tip" content="Please excuse the mess.  This website is still a work in progress." %}
+{% include callout.html type="tip" content="As of September 17th, 2025, this is the test website for <hdrmods.com>  If you were directed here please go to HDRMods.com instead." %}
 
 - [**Introduction to using ReShade with HDR**](Introduction-to-using-ReShade-with-HDR)
 
