@@ -7,7 +7,7 @@ affiliations:
 sidebar: false
 ---
 
-{% include callout.html type="tip" content="Please excuse the mess.  This website is still a work in progress." %}
+{% include callout.html type="important" content="Hello, CreepyMods.com has moved to HDRMods.com. Guides listed here may be incomplete or incorrect. If you were directed here please go to https://www.hdrmods.com/ instead" %}
 
 - [**Introduction to using ReShade with HDR**](Introduction-to-using-ReShade-with-HDR)
 
