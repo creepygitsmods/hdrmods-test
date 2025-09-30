@@ -7,7 +7,7 @@ affiliations:
 sidebar: false
 ---
 
-{% include callout.html type="warning" content="Hello, CreepyMods.com has moved to HDRMods.com.  Guides listed here may be incomplete or incorrect.  If you were directed here please go to https://www.hdrmods.com/ instead." %}
+{% include callout.html type="tip" content="Please excuse the mess.  This website is still a work in progress." %}
 
 - [**Introduction to using ReShade with HDR**](Introduction-to-using-ReShade-with-HDR)
 
@@ -16,3 +16,5 @@ sidebar: false
 - [**FAQ**](FAQ)
 
 - [**Game Specific Guides**](Game-Specific-Guides-Index)
+
+- [**HDR Den Guide**](HDR-Den-Guide)
