@@ -18,3 +18,5 @@ sidebar: false
 - [**Game Specific Guides**](Game-Specific-Guides-Index)
 
 - [**HDR Den Guide**](HDR-Den-Guide)
+
+- [**Shader List**](Shader-List)
