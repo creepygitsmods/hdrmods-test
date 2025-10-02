@@ -8,34 +8,14 @@ sidebar: false
 
 ## HDR Bloom
 
-<img id=img1 src=https://i.postimg.cc/nVCWWvCL/HDR-Bloom-before.png></img>
-<img id=img2 src=https://i.postimg.cc/KcRWWnRG/HDR-Bloom-after.png></img>
+<link rel="stylesheet" href="slider.css">
 
-<div id=comparison>
-  <div id=handle></div>
-  <div id=divisor></div>
-  <input id=slider type=range step=0.0001 min=0 max=100 value=50>
+<div class="img-compare">
+  <img src="{{ 'https://i.postimg.cc/nVCWWvCL/HDR-Bloom-before.png' | relative_url }}" alt="Before">
+  <div class="img-overlay">
+    <img src="{{ 'https://i.postimg.cc/KcRWWnRG/HDR-Bloom-after.png' | relative_url }}" alt="After">
+  </div>
+  <div class="slider-handle"></div>
 </div>
 
-## HDR Saturation
-
-
-<img id=img1 src=https://i.postimg.cc/0ydXSnH0/HDR-Saturation-Before.png></img>
-<img id=img2 src=https://i.postimg.cc/zGS2h7Pw/HDR-Saturation-After.png></img>
-
-<div id=comparison>
-  <div id=handle></div>
-  <div id=divisor></div>
-  <input id=slider type=range step=0.0001 min=0 max=100 value=50>
-</div>
-
-## HDR Brightness Adjustment
-
-<img id=img1 src=https://i.postimg.cc/XNpPPwp7/HDR-Brightness-before.png></img>
-<img id=img2 src=https://i.postimg.cc/T2pssrp1/HDR-Brightness-after.png></img>
-
-<div id=comparison>
-  <div id=handle></div>
-  <div id=divisor></div>
-  <input id=slider type=range step=0.0001 min=0 max=100 value=50>
-</div>
+<script src="{{ '/assets/js/compare.js' | relative_url }}"></script>

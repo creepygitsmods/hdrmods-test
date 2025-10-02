@@ -1,0 +1,39 @@
+.img-compare {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+
+.img-compare img {
+  display: block;
+  width: 100%;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* start halfway */
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-overlay img {
+  display: block;
+  width: 100%;
+}
+
+.slider-handle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: ew-resize;
+  z-index: 10;
+}
