@@ -8,7 +8,7 @@ sidebar: false
 
 ## HDR Bloom
 
-<link rel="stylesheet" href="slider.css">
+<link rel="stylesheet" href="/assets/css/slider.css">
 
 <div class="img-compare">
   <img src="{{ 'https://i.postimg.cc/nVCWWvCL/HDR-Bloom-before.png' | relative_url }}" alt="Before">
