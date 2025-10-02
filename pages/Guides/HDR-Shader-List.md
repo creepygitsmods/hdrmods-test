@@ -6,10 +6,6 @@ description: HDR Shader List
 sidebar: false
 ---
 
-<link rel="stylesheet" href="/HDR-Slider-Code/HDR-Slider-style.css">
-<script src="/HDR-Slider-Code/HDR-Slider-script.js" defer></script>
-
-
 ## HDR Bloom
 
 <img id=img1 src=https://i.postimg.cc/nVCWWvCL/HDR-Bloom-before.png></img>
